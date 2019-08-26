@@ -18,3 +18,12 @@ Lightning Exercises 2: Use square bracket notation to output the remaining 5 pro
 */
 
 console.log( "Empire State Building Height:", empireStateBuilding.height );
+console.log( "Empire State Building Square Feet:", empireStateBuilding.hsquareFeet );
+
+const properties = [ "stories", "address", "constructionDate", "cost", "owner", "eastWestLength", "northSouthLength", "architect" ];
+
+for ( var i = 0; i < properties.length; i++ ) {
+    const item = properties[i];
+    console.log( "Empire State Building ", properties[i], ":", empireStateBuilding["properties[i]"] );
+}
+
